@@ -102,7 +102,8 @@ class MainScreen extends StatelessWidget {
                           IconButton(
                             icon: Icon(Icons.title),
                             onPressed: () {
-                              testPlayer.setUrl(MediaLibrary()._items[0].id);
+                              testPlayer.setUrl(
+                                  'https://www.chosic.com/wp-content/uploads/2021/02/happy-clappy-ukulele.mp3');
                               testPlayer.play();
                               AudioService.playMediaItem(
                                 MediaItem(
